@@ -1,0 +1,42 @@
+.home{
+    width: 1280px;
+    margin: 0 auto;
+    .hero {
+        width: 1280px;
+        height: 330px;
+        background-image: url(../images/AdobeStock_119024139.jpeg);
+        background-size: cover;
+        background-position: center;
+      }
+
+      .content {
+        width: 1280px;
+        height: 595px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 60px;
+
+        .left {
+            width: 513px;
+            height: 322px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-family: "lora-italic";
+          }
+          
+          .right {
+            width: 513px;
+            height: 238px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-family: "lora-italic";
+          }
+      }
+
+
+
+}

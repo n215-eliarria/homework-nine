@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  margin: 0 auto;
+}
+
+nav {
+  width: auto;
+  height: 60px;
+  background-color: navy;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.home {
+  width: 1280px;
+  margin: 0 auto;
+}
+.home .hero {
+  width: 1280px;
+  height: 330px;
+  background-image: url(../images/AdobeStock_119024139.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.home .content {
+  width: 1280px;
+  height: 595px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}
+.home .content .left {
+  width: 513px;
+  height: 322px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "lora-italic";
+}
+.home .content .right {
+  width: 513px;
+  height: 238px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "lora-italic";
+}
+
+.about {
+  width: 1280px;
+  margin: 0 auto;
+}
+.about .hero {
+  width: 1280px;
+  height: 330px;
+  background-image: url(../images/AdobeStock_119024139.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.about .ownersWrapper {
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.about .ownersWrapper .imgDiv {
+  height: 200px;
+  width: 1000px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about .ownersWrapper .imgDiv img {
+  width: 100%;
+  height: 100%;
+}
+.about .contentDiv {
+  padding-left: 65px;
+  padding-top: 20px;
+}
+.about .bigBox {
+  width: 1280px;
+  height: 1015px;
+}
+
+.products {
+  width: 1280px;
+  margin: 0 auto;
+}
+.products .hero {
+  width: 1280px;
+  height: 330px;
+  background-image: url(../images/AdobeStock_119024139.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.products .ownersWrapper {
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.products .ownersWrapper .imgDiv {
+  height: 200px;
+  width: 1000px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.products .ownersWrapper .imgDiv img {
+  width: 100%;
+  height: 100%;
+}
+.products .contentDiv {
+  padding-left: 65px;
+  padding-top: 20px;
+}
+.products .bigBox {
+  width: 1280px;
+  height: 1015px;
+}
+
+.contact {
+  width: 1280px;
+  margin: 0 auto;
+}
+.contact .hero {
+  width: 1280px;
+  height: 330px;
+  background-image: url(../images/AdobeStock_119024139.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.contact .form {
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 200px;
+  padding-top: 200px;
+}
+.contact .form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.contact .form input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: solid navy;
+  box-shadow: none;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+}
+.contact .form .required {
+  color: red;
+}
+.contact .form .submit {
+  background-color: navy;
+  padding: 20px 30px;
+  border-radius: 20px;
+  color: white;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: ew-resize;
+}
+
+/*# sourceMappingURL=styles.css.map */

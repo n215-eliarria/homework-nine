@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+    },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

@@ -1,0 +1,14 @@
+nav{
+    width: auto;
+    height: 60px;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
